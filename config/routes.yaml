@@ -1,0 +1,12 @@
+index:
+    path: /
+    defaults: { _controller: 'App\Controller\DefaultController::index' }
+
+jobs:
+    path: /jobs
+    defaults: { _controller: 'App\Controller\JobController::index' }
+
+# first, run composer req annotations
+#controllers:
+#    resource: ../src/Controller/
+#    type: annotation

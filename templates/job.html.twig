@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Jobeet - Liste des jobs</title>
+  <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+</head>
+<body>
+<ul>
+  {% for job in jobs %}
+    <li>{{ job.position }}</li>
+  {% endfor %}
+</ul>
+</body>
+</html>
